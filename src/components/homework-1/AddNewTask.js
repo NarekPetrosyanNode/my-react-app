@@ -22,7 +22,6 @@ export default function AddNewTask(props) {
                     type="text"
                     placeholder="Add Task"
                     onChange={handleChange}
-                    value={inputValue}
                 />
                 <button onClick={handleSubmit}>Add Task</button>
             <div className="tasks_wrapper">
